@@ -5,7 +5,8 @@ Open clion (perhaps another C++ compiler application is also suitable, but not t
 Then run the main.cpp file and the game will be launched.
 
 
-# changelog: # version 1.0
+# changelog: 
+  # version 1.0
 map (in the future we are going to make it bigger)
 gravity (with free fall acceleration)
 several types of objects (platforms, monsters) that move independently of the hero
