@@ -1,12 +1,12 @@
-# welovepo
-Platform game
+# Platform game
 
 To open the application, you need to download the project.zip file, unzip it to any folder.
 Open clion (perhaps another C++ compiler application is also suitable, but not tested), open the unpacked project "project" using the CMakeLists.txt file.
 Then run the main.cpp file and the game will be launched.
 
-git tag v.1.0
+
 # changelog:
+# version 1.0
 map (in the future we are going to make it bigger)
 gravity (with free fall acceleration)
 several types of objects (platforms, monsters) that move independently of the hero
