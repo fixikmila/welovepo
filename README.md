@@ -25,7 +25,7 @@ the menu from which the game is launched
 
 hero control (jumping and walking)
 
-## 26.05.2022 v.2.0
+## 26.05.2022 v.2.2
 
 the game adjusts to the selected screen resolution
 
