@@ -25,4 +25,27 @@ the menu from which the game is launched
 
 hero control (jumping and walking)
 
-# 26.05.2022 v.2.0
+## 26.05.2022 v.2.0
+
+the game adjusts to the selected screen resolution
+
+game menu was realized and has:
+
+settings
+[before the game, you can choose the difficulty level (the number of monsters), the speed of the game (the movement of all objects), the music (there are several options) and its volume, the game mode (normal survival and creative (a new mode in which the hero cannot die and can fly) ) and number of lives if survival is chosen]
+and game control(in "about")
+
+the hero has an animation depending on the current movement (for example, when the hero falls down, his cloak flutters in the wind, etc.)
+
+during the game (at any time) you can call the menu that will pause the game
+
+in the pause menu it will be possible to change most of the characteristics (but not those that contradict the logic, for example, the difficulty of the game cannot be changed in the process)
+
+inside the game, the map was greatly enlarged (a dungeon appeared, a cave and both glades increased)
+
+there are many new types of blocks (cannons that bounce the player up, cacti that hit player during contact
+pillows that protect against fall damage (at this stage, we also added fall damage that does increase not linearly depending on height), stairs that you can move on, etc.)
+
+the game has a new type of monsters (red which randomly changes its speed)
+
+platforms can now move along 2 coordinates at the same time
