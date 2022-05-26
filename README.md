@@ -10,12 +10,16 @@ Then run the main.cpp file and the game will be launched.
 
 
 # changelog: 
-  # version 1.0
+# version 1.0
 map (in the future we are going to make it bigger)
 
 gravity (with free fall acceleration)
-several types of objects (platforms, monsters) that move independently of the hero
+
+several types of objects (platforms, monsters), that move independently of the hero
+
 collision mechanics depending on the position of objects (for example, if the hero falls on top of the monster, then the monster is dead, otherwise the hero is injured)
 and with field cells (you can’t walk through the walls)
+
 the menu from which the game is launched
+
 hero control (jumping and walking)
