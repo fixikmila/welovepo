@@ -10,7 +10,8 @@ Then run the main.cpp file and the game will be launched.
 
 
 # changelog: 
-# version 1.0
+
+# 05.05.2022 version 1.0
 map (in the future we are going to make it bigger)
 
 gravity (with free fall acceleration)
@@ -23,3 +24,5 @@ and with field cells (you can’t walk through the walls)
 the menu from which the game is launched
 
 hero control (jumping and walking)
+
+# 26.05.2022 version 2.0
