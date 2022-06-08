@@ -1,12 +1,30 @@
 # Platform game
 
-To open the application, you need to download the project.zip file, unzip it to any folder.
+## IDE:
+
+To open the application, you need to download the project.zip file from github, unzip it to any folder.
 
 
-Open clion (perhaps another C++ compiler application is also suitable, but not tested), open the unpacked project "project" using the CMakeLists.txt file.
+Open clion (perhaps another C++ ide is also suitable, but not tested), open the unpacked project "project" using the CMakeLists.txt file.
 
 
 Then run the main.cpp file and the game will be launched.
+
+## command line
+
+### install
+
+git clone https://github.com/fixikmila/welovepo.git # install
+cd ./welovepo
+sudo chmod +x ./install.sh
+sudo ./install.sh
+
+### run
+
+git clone https://github.com/fixikmila/welovepo.git # install
+cd ./welovepo
+sudo chmod +x ./install.sh
+sudo ./install.sh
 
 
 # changelog: 
