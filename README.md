@@ -10,21 +10,21 @@ Open clion (perhaps another C++ ide is also suitable, but not tested), open the 
 
 Then run the main.cpp file and the game will be launched.
 
-## command line
+## command line:
 
 ### install
 
 git clone https://github.com/fixikmila/welovepo.git # install
+
 cd ./welovepo
+
 sudo chmod +x ./install.sh
+
 sudo ./install.sh
 
 ### run
 
-git clone https://github.com/fixikmila/welovepo.git # install
-cd ./welovepo
-sudo chmod +x ./install.sh
-sudo ./install.sh
+/opt/welovepo/project
 
 
 # changelog: 
