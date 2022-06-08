@@ -72,6 +72,8 @@ platforms can now move along 2 coordinates at the same time
 
 implemented saving settings
 
-Authors:           Contribution:
-Milana Kananovich  50%
-Artemy Oueiski     50%
+# Authors:           Contribution:
+
+Milana Kananovich    50%
+
+Artemy Oueiski       50%
