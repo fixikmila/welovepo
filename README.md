@@ -67,3 +67,7 @@ pillows that protect against fall damage (at this stage, we also added fall dama
 the game has a new type of monsters (red which randomly changes its speed)
 
 platforms can now move along 2 coordinates at the same time
+
+## 09.06.2022 v.3.0
+
+implemented saving settings
