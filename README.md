@@ -71,3 +71,7 @@ platforms can now move along 2 coordinates at the same time
 ## 09.06.2022 v.3.0
 
 implemented saving settings
+
+Authors:           Contribution:
+Milana Kananovich  50%
+Artemy Oueiski     50%
