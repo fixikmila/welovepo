@@ -122,19 +122,17 @@ void GameRunning(RenderWindow &window)
 
 int main(int argc, char **argv) {
     std::ifstream cin("src/save.txt");
-    //cin >> isSave;
-    isSave = false;
-    if(isSave)
-        std::cout<<"LOG: loading save"<<std::endl;
+    cin >> survival >> subspeed >> chosen >> sound >> mus >> health1 >> minus >> level1 >> live;
     std::cout << "LOG: app is starting" << std::endl;
     loadResources();
     int w = sf::VideoMode::getDesktopMode().width;
     int h = sf::VideoMode::getDesktopMode().height;
     RenderWindow window(VideoMode( w, h), "The Game", Style::Fullscreen);
     window.setVerticalSyncEnabled(true);
-    music[0].play();
-    music[0].setVolume(100);
-    music[0].setLoop(true);
+    music[mus].play();
+    int music1[5] = {0,20,50,80,100};
+    music[mus].setVolume(music1[sound]);
+    music[mus].setLoop(true);
     font1 = font;
     std::pair<float,int>character = Menu(window, w, h);
     speed = character.first;
@@ -142,6 +140,19 @@ int main(int argc, char **argv) {
     if(!survival)
         creative = true;
     GameRunning(window);
+    std::ofstream fout;
+    fout.open("src/save.txt");
+    fout.close();
+    std::ofstream cout("src/save.txt");
+    cout << survival << std::endl;
+    cout << subspeed << std::endl;
+    cout << chosen << std::endl;
+    cout << sound << std::endl;
+    cout << mus << std::endl;
+    cout << health1 << std::endl;
+    cout << minus << std::endl;
+    cout << level1 << std::endl;
+    cout << live << std::endl;
     std::cout << "LOG: app is closed" << std::endl;
 
     return 0;
